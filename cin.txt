@@ -1,4 +1,8 @@
-﻿(
+(
+(
+# set password
+sudo passwd
+)
 (
 # install xrdp service
 sudo apt update
