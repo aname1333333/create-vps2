@@ -1,7 +1,7 @@
 (
 (
 # set password
-sudo passwd
+sudo passwd $USER
 )
 (
 # install xrdp service
