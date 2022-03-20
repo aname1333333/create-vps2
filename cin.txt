@@ -4,8 +4,7 @@
 sudo passwd $USER
 )
 (
-# install xrdp service and add obs repository
-sudo add-apt-repository -y ppa:obsproject/obs-studio
+# install xrdp service 
 sudo apt update
 sudo apt install -y xrdp
 
@@ -48,13 +47,12 @@ sudo systemctl restart polkit
 )
 (
 # install obs, discord, pulse, chrome and actiona
-# sudo snap install obs-studio
+sudo snap install obs-studio
 sudo snap install discord
 sudo snap install pulseaudio
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt install -y actiona
-sudo apt install -y obs-studio
 )
 (
 # Create a 4GB swapfile
