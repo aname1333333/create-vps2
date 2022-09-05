@@ -83,6 +83,9 @@ dconf write /org/cinnamon/desktop/session/idle-delay "uint32 0"
 dconf write /org/cinnamon/settings-daemon/plugins/power/sleep-display-ac 0
 EOF
 )
+(
+sudo reboot
+)
 )
 
 
